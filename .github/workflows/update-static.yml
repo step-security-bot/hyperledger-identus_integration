@@ -3,6 +3,9 @@ name: Update Static Files
 on:
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   update-static:
     runs-on: ubuntu-latest
