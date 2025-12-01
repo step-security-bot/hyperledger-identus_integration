@@ -6,6 +6,9 @@ on:
       env:
         type: string
 
+permissions:
+  contents: read
+
 jobs:
   integration:
     name: "sdk-swift"
